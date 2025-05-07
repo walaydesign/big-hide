@@ -413,6 +413,10 @@ img {
   margin: 0 auto;
 }
 
+.beautiful {
+  margin-top: -10vw;
+}
+
 .beautiful .layout-pic_text .title-en {
   margin-top: 15px;
 }
