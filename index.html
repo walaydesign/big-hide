@@ -15,17 +15,17 @@
     <link rel="stylesheet" href="./public/css/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="./public/css/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./public/css/aos/aos.css">
-    <link rel="stylesheet" href="./public/css/style.css?v=2">
+    <link rel="stylesheet" href="./public/css/style.css?v=1">
 </head>
 <body>
     <header class="header d-sm-block d-none">
         <nav class="header_nav">
             <ul class="d-flex align-items-center justify-content-center">
-                <li class="header_item" data-target="#airport">勤本大隱</li>
-                <li class="header_item" data-target="#core"><span class="highlight">隱</span>交通</li>
-                <li class="header_item" data-target="#sweetlife"><span class="highlight">隱</span>生活</li>
-                <li class="header_item" data-target="#building"><span class="highlight">隱</span>美學</li>
-                <li class="header_item" data-target="#arrange"><span class="highlight">隱</span>規劃</li>
+                <li class="header_item" data-target="#silent">勤本大隱</li>
+                <li class="header_item" data-target="#a19"><span class="highlight">隱</span>交通</li>
+                <li class="header_item" data-target="#transportation"><span class="highlight">隱</span>生活</li>
+                <li class="header_item" data-target="#simple"><span class="highlight">隱</span>美學</li>
+                <li class="header_item" data-target="#plan"><span class="highlight">隱</span>規劃</li>
             </ul>
         </nav>
     </header>
@@ -33,30 +33,32 @@
     <main>
 
         <div class="kv">
-            <div class="kv_main">
-                <img class="kv_logo" src="./public/img/logo.svg" alt="" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="kv_main" data-aos="fade-down" data-aos-duration="1000">
+                <img class="kv_logo" src="./public/img/logo.svg" alt="">
                 <div class="kv_text">
-                    <h1 class="kv_title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">院子，讓生活慢下來</h1>
+                    <h1 class="kv_title">院子，讓生活慢下來</h1>
                     <div class="d-lg-flex">
-                        <ul class="kv_info" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <ul class="kv_info">
                             <li>青埔</li>
                             <li>A19</li>
                             <li>隱士藏富大境</li>
                         </ul>
-                        <ul class="kv_info" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <ul class="kv_info">
                             <li>只蓋4席</li>
                             <li class="highlight">落成公開</li>
                         </ul>
                     </div>
-                    <ul class="kv_size" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <ul class="kv_size">
                         <li>土地<span class="num">87~100</span>坪</li>
                         <li>院子<span class="num">71~84</span>坪</li>
                     </ul>
                 </div>
             </div>
+            <img class="kv_bg d-lg-block d-none" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" src="./public/img/kv-bg.webp" alt="">
+            <img class="kv_bg d-lg-none" src="./public/img/kv-bg-m.webp" alt="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
         </div>
 
-        <div class="silent">
+        <div class="silent" id="silent">
             <img class="w-100 d-lg-block d-none" src="./public/img/bg-1.webp" alt="">
             <img class="w-100 d-lg-none" src="./public/img/bg-1-m.webp" alt="">
             <h2 class="title">
@@ -97,7 +99,7 @@
             </div>
         </div>
 
-        <div class="layout-slider text-right a19">
+        <div class="layout-slider text-right a19" id="a19">
             <div class="container">
                 <div class="layout-slider_pic">
                     <div class="swiper-container layout-slider_pic_inner a19_pic_swiper">
@@ -183,7 +185,7 @@
             </div>
         </div>
 
-        <div class="layout-pic transportation">
+        <div class="layout-pic transportation" id="transportation">
             <div class="layout-pic_text">
                 <div class="d-flex mx-lg-auto m-0 layout-pic_title" data-aos="fade-up" data-aos-duration="1000">
                     <h2 class="title">
@@ -289,7 +291,7 @@
             </div>
         </div>
 
-        <div class="layout-slider text-left simple">
+        <div class="layout-slider text-left simple" id="simple">
             <div class="container">
                 <div class="layout-slider_text">
                     <div class="d-flex layout-slider_text_inner">
@@ -313,7 +315,7 @@
             </div>
         </div>
 
-        <div class="plan">
+        <div class="plan" id="plan">
             <div class="plan_text">
                 <p class="text-common" data-aos="fade-up" data-aos-duration="1000">
                     與青埔繁華保持若即若離，一個轉身，<br>隔絕燈紅酒綠、人潮湧動的喧囂，<br>留存一處家人望景攬月，拈花弄草，<br>談天說地、休憩娛樂的恬美空間。
@@ -409,7 +411,7 @@
                             </li>
                             <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="250">
                                 <p class="footer_inform_title">戶數規劃</p>
-                                <p class="footer_inform_content">地上X層</p>
+                                <p class="footer_inform_content">地上4層</p>
                             </li>
                         </ul>
                         <ul class="footer_inform_list">
@@ -419,7 +421,7 @@
                             </li>
                             <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
                                 <p class="footer_inform_title">建設規劃</p>
-                                <p class="footer_inform_content">XX建築師事務所</p>
+                                <p class="footer_inform_content">黃豊竣建築師事務所</p>
                             </li>
                         </ul>
                     </div>
@@ -443,22 +445,22 @@
     <div class="sideBtn d-xl-block d-flex">
         <ul class="d-xl-block d-flex sideBtn_link">
             <li>
-                <a href="" target="_blank">
+                <a href="https://www.facebook.com/profile.php?id=61574241958408" target="_blank">
                     <img src="./public/img/fb.webp" alt="">
                 </a>
             </li>
             <li>
-                <a href="" target="_blank">
+                <a href="https://maps.app.goo.gl/hjKqvYxCfjtDU89n8" target="_blank">
                     <img src="./public/img/address.webp" alt="">
                 </a>
             </li>
             <li class="d-lg-block d-none">
-                <a href="" target="_blank">
+                <a href="https://maps.app.goo.gl/NiHUvaMTD9buscaz8" target="_blank">
                     <img src="./public/img/home.webp" alt="">
                 </a>
             </li>
             <li>
-                <a href="tel:" target="_blank">
+                <a href="tel:03 498 5848" target="_blank">
                     <img src="./public/img/phone.webp" alt="">
                 </a>
             </li>
