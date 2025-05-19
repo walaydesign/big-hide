@@ -141,14 +141,20 @@ img {
     @media screen and (max-width: 991px) {
         &-button {
             &-next, &-prev {
-                width: 15px;
-                height: 15px;
+                width: 30px;
+                height: 30px;
                 margin: 0;
                 top: 50%;
                 transform: translateY(-50%);
                 img {
-                    width: 12px;
+                    width: 20px;
                 }
+            }
+            &-next {
+                right: 5px;
+            }
+            &-prev {
+                left: 5px;
             }
         }
         &-pagination {
