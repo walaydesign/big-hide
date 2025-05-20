@@ -223,10 +223,6 @@ img {
 .kv {
     padding-top: 9.09vw;
     padding-bottom: 19.09vw;
-    // background-image: url(../img/kv-bg.webp);
-    // background-size: 100%;
-    // background-position: center bottom;
-    // background-repeat: no-repeat;
     &_main {
         display: flex;
         align-items: flex-end;
@@ -1232,11 +1228,17 @@ img {
             font-size: 12px;
             color: #fff;
             text-align: center;
-            margin-top: 5px;
             transition: $transition-common;
+            position: absolute;
+            bottom: 4px;
+            left: 0;
+            opacity: 0;
         }
         &:hover {
             opacity: 0.6;
+            span {
+                opacity: 1;
+            }
         }
     }
     @media screen and (max-width: 1500px) {
@@ -1279,6 +1281,15 @@ img {
         a {
             width: 100%;
             height: 55px;
+            img {
+                width: 35px;
+                transform: translateY(-3px);
+            }
+            span {
+                opacity: 1;
+                bottom: 2px;
+                font-size: 10px;
+            }
         }
     }
 }

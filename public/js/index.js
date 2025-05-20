@@ -14,8 +14,8 @@ $(".btn-top").click(function(){
 var swiperA19Pic = new Swiper(".a19_pic_swiper", {
     slidesPerView: 1,
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: ".a19-next",
+        prevEl: ".a19-prev",
     },
     speed: 800,
     allowTouchMove: false,
@@ -28,8 +28,8 @@ var swiperA19Pic = new Swiper(".a19_pic_swiper", {
 var swiperA19Text = new Swiper(".a19_text_swiper", {
     slidesPerView: 1,
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: ".a19-next",
+        prevEl: ".a19-prev",
     },
     speed: 800,
     allowTouchMove: false,
@@ -42,8 +42,8 @@ var swiperA19Text = new Swiper(".a19_text_swiper", {
 var swiperCityPic = new Swiper(".city_pic_swiper", {
     slidesPerView: 1,
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: ".city-next",
+        prevEl: ".city-prev",
     },
     speed: 800,
     allowTouchMove: false,
@@ -56,8 +56,8 @@ var swiperCityPic = new Swiper(".city_pic_swiper", {
 var swiperCityText = new Swiper(".city_text_swiper", {
     slidesPerView: 1,
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: ".city-next",
+        prevEl: ".city-prev",
     },
     speed: 800,
     allowTouchMove: false,
