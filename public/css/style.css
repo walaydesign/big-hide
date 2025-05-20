@@ -1228,6 +1228,12 @@ img {
   border: 0;
   letter-spacing: 0.1em;
   font-weight: 700;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact #submit:hover {
+  background-color: #24393C;
 }
 
 @media screen and (max-width: 991px) {

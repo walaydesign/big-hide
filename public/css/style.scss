@@ -962,6 +962,10 @@ img {
         border: 0;
         letter-spacing: 0.1em;
         font-weight: 700;
+        transition: $transition-common;
+        &:hover {
+            background-color: $primary-500;
+        }
     }
     @media screen and (max-width: 991px) {
         padding-top: 145px;
