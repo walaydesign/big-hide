@@ -874,8 +874,9 @@ img {
     padding-top: 270px;
     &_title {
         width: fit-content;
-        margin: 0 auto 120px;
-        position: relative;
+        margin-bottom: 100px;
+        display: flex;
+        align-items: center;
         z-index: 0;
         h2 {
             font-size: 50px;
